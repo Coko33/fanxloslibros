@@ -304,7 +304,16 @@
       <h3>Copyright 2020</h3>
     </footer>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
     <script src="main.js"></script>
+    <script src="anime.min.js"></script>
+    <script>
+      var elements = document.querySelector(".showcase", ".nav-brand");
+
+      anime({
+        targets: elements,
+        translateX: 270,
+      });
+    </script>
   </body>
 </html>
